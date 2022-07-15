@@ -1,0 +1,197 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+th{
+    background-color: maroon;
+    color: white;
+}
+td{
+    color: black;
+    font-weight: 100;
+}
+th a{
+    color: white;
+}
+.pala img{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.pala th, p{
+    position: relative;
+    text-align: left;
+}
+.pala h1{
+    font-size: 24;
+    padding-top: 0;
+}
+.pala{
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    background-color: maroon;
+    color: white;
+    /* margin-bottom: 20px; */
+    padding: 1px 10px;
+}
+.container{
+    width: 100%;
+}
+.left-content{
+    text-align: left;
+    width: 15%;
+    height: 100vh;
+    left: 0;
+    top: 115px;
+    background-color: maroon;
+    color: white;
+    position: fixed;
+}
+#perpus{
+    margin: 10px;
+    font-size: 36px;
+}
+#paragraph{
+    font-size: 24px;
+}
+.perpus img{
+    float: left;
+    margin: 10px;
+    width: 500px;
+    border: 3px solid black;
+}
+.right-content{
+    text-align: left;
+    width: 85%;
+    float: right;
+    margin-top: 115px;
+    /* padding: 0; */
+    
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    color: white;
+    padding-left: 0;
+    margin: 0;
+}
+ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 5px solid black transparent;
+
+}
+ul a i{
+    margin-right: 16px;
+}
+li a{
+    color: white;
+    transition: 0.6s;
+    padding-left: 7px;
+}
+li a:hover, a.active{
+    color:black;
+    border-left: 5px solid black
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+}
+.card p, h1{
+    margin: 20px;
+}
+table{
+    line-height: 48px;
+    margin: 20px;
+}
+
+/* Hamburger*/
+.menu-toggle{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.aksi {
+    width: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.aksi a {
+    color: white;
+    background-color: maroon;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.aksi a:hover {
+    color: black;
+    background-color: white;
+    transition: 0.6s;
+}
+
+.tambah {
+    padding: 5px 10px;
+    /* margin: 10px 10px 10px 0; */
+}
+
+.login {
+    padding: 5px 10px;
+}
+.btn{
+    color: white;
+    background: maroon;
+    padding: 5px 10px ;
+    text-decoration: none;
+    margin: 2px 3px;
+    border: 1px solid;
+}
+.btn:hover{
+    color: maroon;
+    background: white;
+    transition: 0.6s ease;
+    border: 1px solid;
+}
+
+th {
+    text-align: center;
+}
+
+@media screen and (max-width:576px){
+
+	ul{
+		display: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
